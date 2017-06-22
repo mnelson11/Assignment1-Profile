@@ -1,14 +1,15 @@
 
 	body{
 		background: url("https://www.toptal.com/designers/subtlepatterns/patterns/concrete-texture.png");   
-		
+		color:#777777;
 	}	 
 
 	.header{
-		height:60px;
+		height:75px;
 		background:white;
 		border-color:black;
 		border:5px;
+		border-bottom: 1px solid gray;
 	}
 	h1{
 		color:white;
@@ -37,6 +38,7 @@
 	h2{
 		color:#4aaaa5;
 		padding:10px;
+		border-bottom: 1px solid gray;
 	}
 	
 
@@ -44,18 +46,19 @@
 	.bio-box{
 		background: white;
 		height:300px;
-		width:600px;
+		width:650px;
 		border: 1px solid black;
 		margin: 10px;
 		position: absolute;
     	bottom: 270px;
     	right: 650px;
+    	padding:10px;
 	}
 	.pic{float:left;
 		padding:10px;
 		}
 
-		.portfolio-container{
+	.portfolio-container{
 		width: 500px;
 		background: white;
 		border:1px solid black;
@@ -76,8 +79,9 @@
 		margin:20px;
 		background: white;
 		position: absolute;
-   		 right: 200px;
+   		right: 200px;
     	bottom: 386px;
+    	padding: 10px
 	}
 
 	.icon{width:75px;}
@@ -90,6 +94,10 @@
    		bottom:0;
    		width:100%;
    		text-align: center;
+   		height:25px;
+   		border-top:7px solid #4aaaa5;
+   		color:white;
+
 	}
 
 	/* Style inputs with type="text", select elements and textareas */
